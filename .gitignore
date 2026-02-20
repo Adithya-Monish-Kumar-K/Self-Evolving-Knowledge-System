@@ -1,0 +1,39 @@
+# ─── Python ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# ─── Virtual Environment ─────────────────────────────────────────────
+.venv/
+venv/
+ENV/
+
+# ─── Environment Variables ───────────────────────────────────────────
+.env
+
+# ─── IDE / Editor ────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── Testing ─────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ─── Data & Knowledge Base (too large for git) ──────────────────────
+src/data/
+src/knowledge_base/
+
+# ─── OS Files ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
